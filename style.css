@@ -1,4 +1,4 @@
-/* h1{
+ h1{
 color: brown;
 font-size: 70px;
 font-style: italic;
@@ -34,7 +34,7 @@ font-style:italic;
 
 .background{
 background-image: url(img/Img.PNG);
-/* background: radial-gradient(rgb(39, 214, 36), rgb(163, 168, 173) );
+ background: radial-gradient(rgb(39, 214, 36), rgb(163, 168, 173) );
 height: 100vh;
 background-size: contain;
 background-repeat: no-repeat;
@@ -42,7 +42,7 @@ background-position: center;
 width: 100%; */
 
 
-/* h1{
+h1{
     text-align: left;
     text-decoration: underline;
     text-transform: uppercase;
@@ -107,7 +107,7 @@ button:hover{
     left: 100px;
 }
 
-/* 25% {
+25% {
     background-color: goldenrod;
     left: 300px;
 }
