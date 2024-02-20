@@ -1,0 +1,122 @@
+/* h1{
+color: brown;
+font-size: 70px;
+font-style: italic;
+}
+
+.world{ color: brown;
+    font-size: 70px;
+    font-style: italic;
+}
+
+#welcome{
+    color: yellow;
+    font-style: normal;
+}
+
+.school{
+    color: yellow;
+    font-style: normal;
+
+}
+
+.home{
+    color: violet;
+}
+
+#me{
+color: chocolate;
+font-weight: 100;
+font-style:italic;
+}
+
+
+
+.background{
+background-image: url(img/Img.PNG);
+/* background: radial-gradient(rgb(39, 214, 36), rgb(163, 168, 173) );
+height: 100vh;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%; */
+
+
+/* h1{
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+p{
+    text-indent: 90px;
+    font-size: 30px;
+    font-weight: 50px;
+    fo
+
+}
+
+.YouTube{} */ 
+
+
+div{
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    color: #ffffff;
+    text-align: center;
+}
+
+#div-1 { 
+    background-color: limegreen;
+    animation-name: box;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+#div-2{
+    transform: rotate3d(2, 1, 0, 55deg);
+    background-color: dodgerblue;
+    opacity: 0.8;
+}
+
+button{
+    background-color: goldenrod;
+    color: #ffffff;
+    padding: 32px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.5s
+}
+
+
+button:hover{
+    background-color: red;
+    color: gray;
+}
+
+
+
+
+@keyframes box {
+ 0% {
+    background-color: limegreen;
+    left: 100px;
+}
+
+/* 25% {
+    background-color: goldenrod;
+    left: 300px;
+}
+50% {
+    background-color: brown;
+    left: 550px;
+} */
+100% {
+    background-color: gray;
+    left: 1400px;
+}
+}
